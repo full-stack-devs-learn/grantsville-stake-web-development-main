@@ -1,0 +1,30 @@
+/* target elements */
+body {
+    font-family: Cambria, Cochin, Georgia, serif;
+    background-color: whitesmoke; 
+    color:rgb(55, 55, 55);
+
+}
+td {
+    background-color: #dddddd;
+}
+table, th, td {
+    border: solid 1px black;
+}
+table {
+    width: 100%;
+}
+img {
+    width: 350px;
+}
+
+/* target ids */
+#self-image {
+    width: 100px;
+}
+
+
+/* target classes */
+.avatar {
+    width: 150px;
+}

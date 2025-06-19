@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+/* navigation */
+nav {
+    background-color: #f5ab1e;
+}
+
+.container {
+    border: solid 1px black;
+    width: 60%;
+    /* 
+    20px = top/bottom
+    auto = evenly distribute left/right
+    */
+    margin: 20px auto ; 
+}
+nav ul, nav li {
+    border: solid 1px red;
+}
+
+nav > div > ul>  li {
+    display: inline-block;
+    height: 30px;
+    width: 10vw;
+}

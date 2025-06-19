@@ -1,0 +1,54 @@
+
+<!-- 
+XML = eXtensible Markup Language
+We use XML to define the meaning of the data in the file.
+We can define our own tags and attributes to define the data and it's structure.
+
+HTML = HyperText Markup Language
+We use HTML to define the presentation of the data in the file.
+Each HTML tag has a specific meaning and is 
+used to display the data in a specific way.
+HTML tags are predefined and cannot be changed.
+-->
+<customers>
+    <customer id="12345">
+        <name>
+            <first>Gregor</first>
+            <last>Dzierzon</last>
+        </name>
+        <address>
+            <street>123 Main Street</street>
+            <city>Grantstville</city>
+            <state>UT</state>
+            <zip>84029</zip>
+        </address>
+        <favorite_color>Red</favorite_color>
+        <favorite_number>42</favorite_number>
+        <favorite_food>Pizza</favorite_food>
+        <hobbies>
+            <hobby>Woodworking</hobby>
+            <hobby>Traveling</hobby>
+            <hobby>Cooking</hobby>
+        </hobbies>
+    </customer>
+    <customer id="456">
+        <name>
+            <first>Amy</first>
+            <last>Dzierzon</last>
+        </name>
+        <address>
+            <street>123 Main Street</street>
+            <city>Grantstville</city>
+            <state>UT</state>
+            <zip>84029</zip>
+        </address>
+        <favorite_color>Blue</favorite_color>
+        <favorite_number>42</favorite_number>
+        <favorite_food>Pizza</favorite_food>
+        <hobbies>
+            <hobby>Woodworking</hobby>
+            <hobby>Traveling</hobby>
+            <hobby>Cooking</hobby>
+        </hobbies>
+    </customer>
+</customers>

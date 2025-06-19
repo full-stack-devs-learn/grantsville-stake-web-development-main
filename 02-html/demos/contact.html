@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About Me</a> |
+    <a href="contact.html">Contact Me</a>
+        
+    <h1>Contact Me</h1>
+
+    <form action="submit.html" method="get">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="mail"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <label for="food">Favorite Food:</label><br>
+        <select id="food" name="food">
+            <option value="pizza">Pizza</option>
+            <option value="sushi">Sushi</option>
+            <option value="pasta">Pasta</option>
+            <option value="salad">Salad</option>
+            <option value="burger">Burger</option>
+        </select><br><br>
+
+        <label for="subscribe">Subscribe to newsletter:</label><br>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
