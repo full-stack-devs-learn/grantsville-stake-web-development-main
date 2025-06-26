@@ -11,11 +11,12 @@ function displayTitle() {
    
 }
 
-function displayTasks() {
+// must add async/await pattern here because the service.getTasks() function is an async function
+async function displayTasks() {
     // get the list of all tasks and
     // create all rows
    
-    let tasks = service.getTasks();
+    let tasks = await service.getTasks();
 
     // sort the list - low number first
     tasks = tasks.sort((left, right) => {
